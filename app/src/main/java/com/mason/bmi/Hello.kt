@@ -4,13 +4,17 @@ class Hello {
 }
 
 fun main() {
-    val p = Person()
-    p.name ="Mason"
+    val p = Person("JJ",70.0,1.8)
+
+    p.greeting()
+
+    println(p.bmi())
 
 
 
 
 
+/*
     println("Hello Kotlin")
     val age =20
     val population = 999L
@@ -25,7 +29,7 @@ fun main() {
     println(char)
 
     val weight:Float = 70.5f
-
+*/
 
 
 }

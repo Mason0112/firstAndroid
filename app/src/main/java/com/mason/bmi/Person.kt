@@ -1,17 +1,17 @@
 package com.mason.bmi
 
-class Person {
-    var name:String? = null
-        set(value){
-            field = value
-        }
-        get(){
-            return field
-        }
+class Person (val name:String, val weight:Double , val height:Double){
+
+
+
+
+
     fun greeting(){
 
-        println("Hello by $name")
+        println("Hello")
     }
+    fun bmi() :Double = weight / (height * height)
+
 
 }
 
